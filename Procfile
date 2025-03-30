@@ -1,1 +1,1 @@
-web: gunicorn django_todo.wsgi:application --preload -b 0.0.0.0:1000
+web: gunicorn django_todo.wsgi:application --preload -b mot-ci-fsf-hello-django-d700784fce5c.herokuapp.com:5000
