@@ -1,1 +1,1 @@
-web: gunicorn django_todo.wsgi:application -preload
+web: gunicorn django_todo.wsgi:application -preload -b 0.0.0.0:1000
